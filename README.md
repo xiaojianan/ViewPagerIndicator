@@ -1,0 +1,1 @@
+![Image text](https://github.com/xiaojianan/ViewPagerIndicator/blob/master/ViewPagerIndicator.gif)
