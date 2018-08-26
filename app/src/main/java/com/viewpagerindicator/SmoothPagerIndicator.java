@@ -61,7 +61,7 @@ public class SmoothPagerIndicator extends View {
     public void setViewPager(final ViewPager mViewPager) {
         this.mViewPager = mViewPager;
 
-        if (mViewPager == null || mViewPager.getAdapter() == null || mViewPager.getAdapter().getCount() == 0) {
+        if (mViewPager == null || mViewPager.getAdapter() == null || mViewPager.getAdapter().getCount() <= 1) {
             setVisibility(View.GONE);
             return;
         }
